@@ -1,4 +1,4 @@
-package channels
+package workerpool
 
 import (
 	"fmt"
@@ -24,7 +24,7 @@ func worker3(url string, wg *sync.WaitGroup, resultchan chan result) {
 	}
 }
 
-func Fanin2() {
+func Fanin3() {
 
 	jobs := []string{
 		"imag_1.png",

@@ -1,12 +1,13 @@
 package main
 
 import (
-	"concurrency/channels"
+	"concurrency/workerpool"
 )
 
 func main() {
 	// concurrency.Demo()
 	// concurrency.Fanin()
 	// concurrency.Fanin2()
-	channels.Fanin3()
+	// workerpool.Fanin3()
+	workerpool.Fanin4()
 }
